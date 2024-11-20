@@ -9,7 +9,7 @@ import Signup from "./Pages/Signup"
 const App = () => {
   return (
     <div>
-      <div>
+      <div className='sticky top-0 bg-white  z-50'>
         <Navbar/>
       </div>
 

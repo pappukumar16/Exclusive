@@ -15,7 +15,7 @@ function HomepageCasorel() {
   return (
     <>
 
-        <div className="w-[905px] shadow-[rgba(50,_50,_105,_0.15)_0px_2px_5px_0px,_rgba(0,_0,_0,_0.05)_0px_1px_1px_0px] mt-4">
+        <div className="w-[950px] shadow-[rgba(50,_50,_105,_0.15)_0px_2px_5px_0px,_rgba(0,_0,_0,_0.05)_0px_1px_1px_0px] mt-4">
         <AliceCarousel
         items={items}
         disableButtonsControls

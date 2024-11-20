@@ -4,14 +4,14 @@ import Cashrole from '../components/core/homepage/HomepageCasorel.jsx'
 const Home = () => {
   return (
     <div className="container mx-auto p-4 py-0">
-    <div className="grid grid-cols-12">
-      <aside className="col-span-3 py-4 border-r border-gray-900 max-w-[250px] ">
+    <div className="flex">
+      <aside className="py-4 border-r h-[63vh] border-gray-900 w-[250px] mr-5 ">
       
       <AsideComponent/>
       
       </aside>
       
-      <main className="col-span-6 bg-white min-w-[905px]">
+      <main className=" bg-white ">
         <Cashrole/>
       </main>
 

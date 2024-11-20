@@ -8,7 +8,7 @@ const AsideComponent = () => {
     
 
   return (
-    <div className='mx-3 space-y-3 '>
+    <div className='ml-3 space-y-3 '>
      {
         dataAside.map( (data)=>(
             <div  className='hover:translate-x-1 '>
